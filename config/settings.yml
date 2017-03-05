@@ -1,0 +1,25 @@
+plugins:
+  nova-experiences:
+    client: true
+    default: false
+  nova-experiences-date:
+    client: true
+    default: "Mar 12, 2017"
+  nova-foodwaste:
+    client: true
+    default: false
+  nova-foodwaste-date:
+    client: true
+    default: "Mar 12, 2017"
+  nova-pollution:
+    client: true
+    default: false
+  nova-pollution-date:
+    client: true
+    default: "Mar 12, 2017"
+  nova-reading:
+    client: true
+    default: false
+  nova-reading-date:
+    client: true
+    default: "Mar 12, 2017"
