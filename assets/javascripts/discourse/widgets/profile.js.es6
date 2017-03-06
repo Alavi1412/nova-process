@@ -68,9 +68,6 @@ export default createWidget('nova_process', {
     
 
     const path = getOwner(this).lookup('controller:application').get('currentPath');
-    console.log(cate);
-    console.log(topic);
-    console.log(path);
     var v1 = 0, size = 0;
     var unread = 0;
     var data = Discourse.Category.list();
