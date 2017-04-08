@@ -10,9 +10,9 @@ import NotificationsButton from 'discourse/components/notifications-button';
 
 
 
-export default createWidget('nova_process', {
+export default createWidget('nova-process', {
   tagName: 'div.novaProcess.widget-container',
-  buildKey: (attrs) => 'nova_process',
+  buildKey: (attrs) => 'nova-process',
 
   defaultState(attrs) {
     return {
