@@ -1,13 +1,13 @@
-# name: nova-process
+# name: nova_process
 # about: A widget to show process about nova
 # version: 0.1
 # authors: SMHassanAlavi
 register_asset 'stylesheets/user-widget.scss'
 
-# add_admin_route 'nova_widget.title', 'nova-widget'
+# add_admin_route 'nova_widget.title', 'nova_process'
 
 # Discourse::Application.routes.append do
-#   get '/admin/plugins/nova-widget' => 'admin/plugins#index', constraints: StaffConstraint.new
+#   get '/admin/plugins/nova_process' => 'admin/plugins#index', constraints: StaffConstraint.new
 # end
 
 after_initialize do
